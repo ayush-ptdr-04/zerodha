@@ -29,6 +29,18 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <form class="d-flex" role="search">
             <ul class="navbar-nav mb-lg-0">
+              <li
+                class="nav-item"
+                style={{
+                  backgroundColor: "#387ed1",
+                  borderRadius: "10px",
+                  width: "11rem",
+                }}
+              >
+                <Link to={"/dashboard"} class="nav-link active " href="#">
+                  Dashboard
+                </Link>
+              </li>
               <li class="nav-item">
                 <Link
                   to={"/signup"}

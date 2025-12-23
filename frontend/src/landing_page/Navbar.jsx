@@ -37,7 +37,11 @@ function Navbar() {
                   width: "11rem",
                 }}
               >
-                <Link to={"/dashboard"} class="nav-link active " href="#">
+                <Link
+                  to={"https://zerodha-ecru.vercel.app/"}
+                  class="nav-link active "
+                  href="#"
+                >
                   Dashboard
                 </Link>
               </li>
